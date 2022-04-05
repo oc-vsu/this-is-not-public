@@ -6,10 +6,12 @@ nav_order: 1
 
 # Golang Lernpfad
 
-![](learning_group_gophers.png)
+<img src="images/learning_group_gophers.png" alt="learning_gophers" width="400"/>
+
 
 ## Inhalt 
 
 ## Why go?
-
-
+- kompilierter Maschinencode -> keine VM
+- Performance: [Benchmark Java vs. Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/go.html)
+- 

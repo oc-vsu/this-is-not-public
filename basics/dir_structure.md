@@ -13,20 +13,29 @@ nav_order: 3
   - https://github.com/moby/moby
   - https://github.com/hashicorp/terraform
 
-
+Beispiel:
 ```
 project
 │   README.md
 │   go.mod
 │   go.sum      
 └───cmd
-│   └───subfolder1
+│   └───cmd1
+│       │   main.go
+│   └───cmd2
 │       │   main.go
 └───internal
 │   └───app
-│   │   └───model
-│   │       │   model.go
+│   │   └───cmd1
+│   │   │   └───foo
+│   │   │       │ ....
+│   │   └───cmd2
+│   │   │   └───bar
+│               │ ....
 │   └───pkg
 │       └───keycloakApi
 │           │   ...
 ```
+- der pkg Ordner wird für Packages verwendet, welche ohne Abhängigkeiten von allen Subprogrammen in einem Projekt verwendet werden kann:
+  - cmd1 und cmd1 können jeweils auf das keycloakApi zugreifen
+  - cmd1 darf nicht auf cmd2/bar und cmd2 nicht auf cmd1/foo zugreifen
