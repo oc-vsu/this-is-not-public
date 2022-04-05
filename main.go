@@ -1,17 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-type Test struct {
-	
-}
+	"optiz-consulting.com/project/model"
+)
 
 func main() {
-
-	for i := 0; i < 20; i++ {
-		fmt.Printf("Hello %d\n", i)
+	c := model.Custom{
+		ID: "ASdasdasd",
 	}
 
+	fmt.Println(c.ToString())
 }
-
-func 
