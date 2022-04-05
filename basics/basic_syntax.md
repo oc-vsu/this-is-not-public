@@ -28,7 +28,7 @@ func main() {
 }
 ```
 
-## Objektorientierung
+## "Objektorientierung"
 - keine Klassen dafür Structs
 - Funktionen können auf Structs gebindet werden
 - "New" Funktion als Konstruktor
