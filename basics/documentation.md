@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Packages
+title: Dokumentation
 parent: Basics
 nav_order: 5
 ---
