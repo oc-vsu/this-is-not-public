@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Debugging
+title: Compiler, Build & Debug
 parent: Basics
 nav_order: 3
 ---
