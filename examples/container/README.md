@@ -1,4 +1,6 @@
 ---
+title: Docker Beispiel für hello-world API Service
+layout: default
 exclude: true
 ---
 
