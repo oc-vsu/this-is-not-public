@@ -22,6 +22,10 @@ Anweisungen unter: [https://go.dev/doc/install](https://go.dev/doc/install)
     /Users/vsu/go
     ```
 
+### Links
+- [gopath env var](https://pkg.go.dev/cmd/go#hdr-GOPATH_environment_variable)
+
+
 ## Go Modules
 - Dependency management
 - wurde in v1.11 eingeführt
@@ -45,4 +49,7 @@ module opitz-consulting.com/project/project
 go 1.18 // optional
 ```
 
-Dokumentation: [https://go.dev/ref/mod](https://go.dev/ref/mod)
+### Links
+- [gopath and modules](https://pkg.go.dev/cmd/go#hdr-GOPATH_and_Modules)
+- [modules documentation](https://go.dev/ref/mod)
+- [the go.mod file](https://pkg.go.dev/cmd/go#hdr-The_go_mod_file)
