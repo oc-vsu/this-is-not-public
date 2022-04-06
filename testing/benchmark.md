@@ -34,3 +34,6 @@ nav_order: 2
     PASS
     ok      opitz-consulting.com/examples/benchmark 1.490s
     ```
+
+## Links
+- [benchmarks](https://pkg.go.dev/testing#hdr-Benchmarks)

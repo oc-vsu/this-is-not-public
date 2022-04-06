@@ -57,6 +57,11 @@ nav_order: 3
     - `go run [packages]`   
     - `go run ./...`
 
+### Links
+- [compile & install an application](https://go.dev/doc/tutorial/compile-install)
+- [build constraints](https://pkg.go.dev/go/build#hdr-Build_Constraints)
+- [compile and run](https://pkg.go.dev/cmd/go#hdr-Compile_and_run_Go_program)
+
 ## Debugging
 
 ### Visual Studio Code
