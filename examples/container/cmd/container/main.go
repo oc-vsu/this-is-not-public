@@ -1,7 +1,7 @@
 package main
 
 import (
-	"opitz-consulting.com/example/container/internal/app/container"
+	"opitz-consulting.com/examples/container/internal/app/container"
 )
 
 func main() {

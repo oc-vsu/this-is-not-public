@@ -1,4 +1,4 @@
-module opitz-consulting.com/example/container
+module opitz-consulting.com/examples/container
 
 go 1.18
 
