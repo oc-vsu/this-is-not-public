@@ -8,10 +8,10 @@ nav_order: 3
 # Datei & Ordner Struktur
 
 - Eine offiziell definierte Projekt Struktur gibt es nicht
-- "industrie Standard" folgt https://github.com/golang-standards/project-layout, darunter u.a.:
-  - https://github.com/kubernetes/kubernetes
-  - https://github.com/moby/moby
-  - https://github.com/hashicorp/terraform
+- "industrie Standard" folgt [github.com/golang-standards/project-layout](https://github.com/golang-standards/project-layout), darunter u.a.:
+  - [github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
+  - [github.com/moby/moby](https://github.com/moby/moby)
+  - [github.com/hashicorp/terraform](https://github.com/hashicorp/terraform)
 
 Beispiel:
 ```
