@@ -5,8 +5,7 @@ nav_order: 1
 ---
 
 # Go Lernpfad
-
-<img src="images/learning_group_gophers.png" alt="learning_gophers" height="250"/>
+<img src="images/learning_gophers.png" alt="learning_gophers" width="400" />
 
 
 
