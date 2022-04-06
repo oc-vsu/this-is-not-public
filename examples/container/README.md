@@ -1,3 +1,7 @@
+---
+exclude: true
+---
+
 # Docker Beispiel für hello-world API Service
 
 Beispiel für ein schlankes Docker image mit [Busybox](https://hub.docker.com/_/busybox).
