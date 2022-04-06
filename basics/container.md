@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Docker
 
-<img src="../images/gopher_docker.png" alt="learning_gophers" width="200"/>
+<img src="../images/gopher_docker.png" alt="moby_gopher" width="200"/>
 
 
 Beispiel eines Go API Service auf Port 8081 ([examples/container](../examples/container)).

@@ -7,7 +7,7 @@ nav_order: 3
 
 # Compiler, Build & Debug
 
-<img src="../images/go_build.png" alt="learning_gophers" width="200"/>
+<img src="../images/go_build.png" alt="building_gophers" width="200"/>
 
 ## Compiler
 - Für Go gibt es 2 Compiler
