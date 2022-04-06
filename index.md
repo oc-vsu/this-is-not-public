@@ -14,4 +14,3 @@ nav_order: 1
 ## Why go?
 - kompilierter Maschinencode -> keine VM
 - Performance: [Benchmark Java vs. Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/go.html)
-- 

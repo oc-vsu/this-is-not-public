@@ -1,7 +1,7 @@
 ---
 title: Docker Beispiel für hello-world API Service
 layout: default
-exclude: true
+nav_exclude: true
 ---
 
 # Docker Beispiel für hello-world API Service
