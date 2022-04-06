@@ -34,11 +34,23 @@ nav_order: 3
 - go build compiliert die angegebenen packages / dateien.
     - mit dem Parameter "-o" kann ein Ausgabepfad angegeben werden    
     `go build -o my_binary main.go`
-- Cross compiling, durch das Voranstellen der Env Variablen GOOS, GOARCH:
+- cross-compiling, durch das Voranstellen der Env Variablen GOOS, GOARCH:
     - `GOOS=windows GOARCH=amd64 go build -o my_binary.exe main.go`
     - mit `go tool dist list` können verfügbare Platformen 
 - mehr details auf [go.dev](https://pkg.go.dev/cmd/go#hdr-Compile_packages_and_dependencies)
 
+
+### Build constraints
+- stehen am Anfang einer Go - Datei
+    - `// +build <tag>`
+- können Abhängigkeiten zu GOOS und GOARCH haben:
+    - `// +build darwin,arm64` kompiliert nur auf MacOS, ARM64 _(siehe oben, cross-compiling)_
+    - `// +build windows` kompiliert nur auf Windows _(siehe oben, cross-compiling)_
+- eigene Tags möglich:
+    - `// +build foo`, benötigt die Übergabe von `-tags foo` im build command.
+        - `go build -o output -tags foo .`
+- contraints können negiert werden:
+    - `// +build !linux` // kompiliert nicht für Linux
 
 ### Run command
 - go run compiliert und führt das angegbene package aus
