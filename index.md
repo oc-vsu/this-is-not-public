@@ -17,6 +17,7 @@ nav_order: 1
 
 ## Warum Go?
 - kompilierter Maschinencode -> keine VM
+- wenig Komplexität in der Sprache -> einfach zu erlernen
 - Performance: [Benchmark Java vs. Go](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/go.html)
 - Concurrency
 
@@ -26,16 +27,13 @@ nav_order: 1
 - [ ] Syntax
     - [ ] Concurrency (Goroutines)
     - [ ] Generics
-    - [ ] Closures
-- [ ] Cgo - go call C code
-- [ ] Beispiele
-    - [ ] Context    
+    - [ ] Closures   
     - [ ] Reflection
-    - [ ] REST
-    - [ ] DB (MongoDB + SQL -> Gorm.io)
-    - [ ] Serverless
-        - [ ] AWS
-        - [ ] Azure
+- [ ] Cgo - go call C code
+- [ ] Context 
+- [ ] Templating
+- [ ] XML / SOAP
+- [ ] File IO
 - [ ] Testing
     - [ ] Fuzzing
 - [ ] Container

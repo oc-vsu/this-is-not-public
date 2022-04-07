@@ -56,7 +56,8 @@ nav_order: 2
 	
 	}
 	```
-
+- Slices
+  
 ## "Objektorientierung"
 - Go ist prozedural
     - allerdings gibt es 
@@ -65,6 +66,7 @@ nav_order: 2
 - "New" Funktion als Konstruktor
 - interfaces
     - 
+- Pointer
 
 ```go
 // example/example.go
